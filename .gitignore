@@ -1,0 +1,15 @@
+# Bỏ qua dữ liệu gốc và dữ liệu quá lớn
+data/raw/
+data/processed/*.csv
+
+# Bỏ qua các file cấu hình môi trường
+.env
+__pycache__/
+*.pyc
+
+# Bỏ qua Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Bỏ qua các model đã train
+output/models/*.pkl
+output/models/*.h5
