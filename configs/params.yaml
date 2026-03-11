@@ -1,0 +1,20 @@
+project:
+  name: "Hotel Reviews & Service Analysis"
+  seed: 42
+
+paths:
+  raw_data: "data/raw/Datafiniti_Hotel_Reviews_Jun19.csv"
+  processed_data: "data/processed/cleaned_reviews.csv"
+  models_dir: "outputs/models/"
+
+mining:
+  apriori:
+    min_support: 0.05
+    min_confidence: 0.2
+  clustering:
+    n_clusters: 5
+    max_features_tfidf: 1000
+
+modeling:
+  test_size: 0.2
+  semi_supervised_labeled_ratio: 0.2
