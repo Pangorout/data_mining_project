@@ -1,2 +1,1 @@
-# data_mining_project
-Final semester Data Mining project.
+# Phân tích đánh giá khách sạn & chủ đề dịch vụ
